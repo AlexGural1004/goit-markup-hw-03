@@ -15,13 +15,12 @@
 .container{
     width: 1200px;
     margin: 0 auto;
-    padding: 0 15pxs;
+    padding: 0 15px;
     }
 .container-header{
     border-bottom: 1px solid var(--solid);
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
+
 }
 .header > .container{
 display: flex;
