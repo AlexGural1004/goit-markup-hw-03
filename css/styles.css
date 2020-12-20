@@ -18,16 +18,15 @@
     margin: 0 auto;
     padding: 0 15px;
     }
-    
+
 .container-header{
-    border-bottom: 1px solid var(--solid);
     align-items: center;
     }
 
-
-.portfolio-container{
-    border-bottom: 2px solid #ECECEC;
+.header{
+    border-bottom: 1px solid var(--solid);
     }
+
 
 .header > .container{
     display: flex;
@@ -48,6 +47,8 @@
 
 .our-classes {
      display: flex;
+     margin-top: 0px;
+     margin-bottom: 0px;
     }
 
 .our-classes > .flex-elememt{
@@ -57,9 +58,15 @@
     margin-right: 30px;
     }
 
-    .our-team-pics{
-        width: 270px;
+.section-our-classes{
+
+    padding-bottom: 94px;
     }
+
+.our-team-pics{
+    width: 270px;
+    }
+
 .link{
     display: block;
     padding-top:32px;
@@ -142,7 +149,6 @@ body{
     color:var(--h1-color);
     font-size: 26px;
     line-height: 1.19;
-    margin-top: 60px;
     }
 
 .link-tel{
@@ -238,34 +244,37 @@ h4{
     color:var(--black);
     }
 
-.our-benefits{
-    margin-top: 94px;
-    margin-bottom: 94px;  
+
+.our-benefits{ 
     display: flex;
     }
 
 .our-benefits>.flex-elememt>.flex-element{
-        padding-right: 30px;
-        padding-top: 94px;
-        padding-bottom: 94px;
-        width: 270px;
+    padding-right: 30px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    width: 270px;
     }
+
 .our-team-container{
     margin-bottom: 94px;
     }
+
 .names{
-        margin-top: 30px;
-        margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     }
-    .our-team-title{
-        margin-top: 94px;
-        margin-bottom: 50px;
+
+.our-team-title{
+    margin-bottom: 50px;
     }
-    .container-our-classes{
-        padding-bottom: 94px;
+
+.setcion-our-team{
+    padding-bottom: 94px;
     }
-    .our-benefits>.flex-element:last-child{
-        padding-right: 0px;   
+
+.our-benefits>.flex-element:last-child{
+    padding-right: 0px;   
     }
 
 .our-classes>.flex-element:not(:last-child){
@@ -286,19 +295,24 @@ h4{
     }
 
 button{
-    width: 128px;
-    height: 38px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     margin-right: 8px;
+    margin-top: 0px;
     border: none;
     background:var(--buttons-color);
     border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom:6px ;
+    padding-left: 22px;
+    padding-right: 22px;
     }
-
+.buttons{
+    margin-top: 0px;
+}
 .link-buttons{
     margin-top: 0;
     margin-bottom: 0;  
@@ -306,7 +320,6 @@ button{
 
 .container>.buttons{
     width: 611px;
-    margin-top: 114px;
     margin-bottom: 34px; 
     margin-left: auto;
     margin-right: auto;
@@ -322,18 +335,25 @@ button{
     }
 
  .portfolio-heading{
-        text-transform: none;
-        margin-left: 24px;
+    text-transform: none;
+    margin-left: 24px;
     }
 
-    .portfolio-text{
-        margin-left: 24px;
+.portfolio-text{
+    margin-left: 24px;
     }
+
 .section-benefits-text{
     font-size: 14px;
     line-height: 1.71;
+    margin-bottom: 0px;
     }
 
+.section-our-benefits{
+    padding-bottom: 94px;
+    padding-top: 94px;
+
+    }
 .our-team{
     display: flex;
     }
@@ -348,7 +368,6 @@ button{
 .hero-section{
     background-color: var(--background-hero); 
     text-align: center;
-    width: 1600px;
     }
 
 .button-blue{
@@ -368,9 +387,9 @@ button{
 
 .main-hero{
     padding-top: 200px;
-}
+    }
     .button-blue:hover{
-        color: black;
+    color: black;
     }
 
 .section-our-team-text{
@@ -431,12 +450,13 @@ a{
     }
 
 .button-all:hover{
-        color:var(--logo-color);
+    color:var(--logo-color);
     }
     
 .button-standart:hover{
     color:var(--button-color);
-}
+    }
+
 .button-standart:focus{
     font-weight: 500;
     font-size: 16px;
@@ -444,32 +464,52 @@ a{
     }
 
 .hidden-header{        
+    position: absolute;
     visibility: hidden;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
     color:var(--background-color);
     margin: 0px;
     padding: 0px;
     }
 
-    .logo-footer{
-        display: inline-block;
-        margin-top: 60px;
-        margin-left: 15px;
-        margin-right: 0;
-        margin-bottom: 20px;
+.logo-footer{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 0;
+    margin-bottom: 20px;
     }
 
-    .contacts-footer{
-        padding-left: 15px;
-        margin: 0;
+.contacts-footer{
+    padding-left: 15px;
+    margin: 0;
     }
 
-.footer-mail {
+.footer-mail{
     display: inline-block;
     margin-top: 9px;
     margin-bottom: 9px;
     }
 
-    .contacts-footer{
-        display: inline-block;
-        padding-bottom: 60px;
+.contacts-footer{
+    display: inline-block;
+    }
+
+.description{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    }
+
+.categories-section{
+    padding-top: 114px;
+    padding-bottom: 74px;
+    }
+
+.footer-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
     }
