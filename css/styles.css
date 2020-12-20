@@ -385,7 +385,10 @@ button{
     }
 
 .main-hero{
+    width: 696px;
     padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
     }
 
 .button-blue:hover{
