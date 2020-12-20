@@ -25,10 +25,8 @@
     }
 
 
-    .portfolio-container{
-        border-bottom: 2px solid #ECECEC;
-        ;
-        ;
+.portfolio-container{
+    border-bottom: 2px solid #ECECEC;
     }
 
 .header > .container{
@@ -59,6 +57,9 @@
     margin-right: 30px;
     }
 
+    .our-team-pics{
+        width: 270px;
+    }
 .link{
     display: block;
     padding-top:32px;
@@ -322,8 +323,12 @@ button{
 
  .portfolio-heading{
         text-transform: none;
+        margin-left: 24px;
     }
 
+    .portfolio-text{
+        margin-left: 24px;
+    }
 .section-benefits-text{
     font-size: 14px;
     line-height: 1.71;
@@ -385,6 +390,8 @@ address{
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
+    display: block;
+    margin-left: 15px;
     }
 
 a{
@@ -443,15 +450,27 @@ a{
     padding: 0px;
     display: none;
     }
-    .footer-container{
- display: block;
- flex-wrap: wrap;
-    }
+
     .logo-footer{
+        display: inline-block;
         margin-top: 60px;
         margin-left: 15px;
-        margin-top: 60px;
-        margin-right: 0px;
-
+        margin-right: 0;
+        margin-bottom: 20px;
     }
-    
+
+    .contacts-footer{
+        padding-left: 15px;
+        margin: 0;
+    }
+
+.footer-mail {
+    display: inline-block;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    }
+
+    .contacts-footer{
+        display: inline-block;
+        padding-bottom: 60px;
+    }
