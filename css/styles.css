@@ -114,7 +114,6 @@ li{
     font-weight: bold;
     }
 
-
 .flex-elemrent > .portfolio-heading{
     font-family: Roboto;
     font-style: normal;
@@ -240,8 +239,7 @@ h3{
     line-height: 1.14;
     letter-spacing: 0.06em;
     color:var(--black);
-    margin-top: 0;
-    margin-bottom: 0;
+    margin:0px;
     }
 
 h4{
@@ -249,18 +247,6 @@ h4{
     font-size: 16px;
     line-height: 1.19;
     color:var(--black);
-    }
-
-
-.our-benefits{ 
-    display: flex;
-    }
-
-.our-benefits>.flex-elememt>.flex-element{
-    padding-right: 30px;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    width: 270px;
     }
 
 .our-team-container{
@@ -279,10 +265,6 @@ h4{
 .setcion-our-team{
     padding-top: 94px;
     padding-bottom: 94px;
-    }
-
-.our-benefits>.flex-element:last-child{
-    padding-right: 0px;   
     }
 
 .our-classes>.flex-element:not(:last-child){
@@ -363,15 +345,44 @@ button{
     line-height: 1.87;
     }
 
+.section-our-benefits{
+    display: block;
+    padding-bottom: 94px;
+    padding-top: 94px;
+    }
+
+.container-our-benefits{
+    display: block;
+    }
+
+.our-benefits{
+    display: flex;
+    }
+
 .section-benefits-text{
     font-size: 14px;
     line-height: 1.71;
     margin-bottom: 0px;
+    width: 270px;
     }
 
-.section-our-benefits{
-    padding-bottom: 94px;
-    padding-top: 94px;
+.heading{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color:var(--black);
+    width: 270px;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-block-end: 0px;
+    }
+
+.flex-element-benefits:not(:last-child){
+    margin-right: 30px;
+    padding: 0px;
     }
 
 .our-team{
@@ -538,3 +549,11 @@ a{
     padding-top: 60px;
     padding-bottom: 60px;
     }
+    
+.our-classes > .flex-elememt{
+    display: flex;
+    align-items: center;
+    width: 380px;
+    margin-right: 30px;
+    }
+
