@@ -36,6 +36,16 @@
     margin-right: 93px;
     }
 
+ul{
+    margin: 0px;
+    padding: 0px;
+    }    
+
+li{
+    margin: 0px;
+    padding: 0px;
+    }
+    
 .link-buttons{
     display: flex;
     }
@@ -79,7 +89,6 @@
 .container>.types-of-works{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 74px;
     }
 
 .types-of-works>.flex-elemrent{
@@ -105,12 +114,13 @@
     font-weight: bold;
     }
 
+
 .flex-elemrent > .portfolio-heading{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     }
 
 .nav-link-contacts{
@@ -123,6 +133,7 @@ body{
     background-color: var(--background-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+    margin: 0px;
     }
    
 .logo{
@@ -266,6 +277,7 @@ h4{
     }
 
 .setcion-our-team{
+    padding-top: 94px;
     padding-bottom: 94px;
     }
 
@@ -334,11 +346,21 @@ button{
 
  .portfolio-heading{
     text-transform: none;
-    margin-left: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
     }
 
 .portfolio-text{
-    margin-left: 24px;
+    padding-top: 4px;
+    margin:0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
     }
 
 .section-benefits-text{
@@ -508,8 +530,8 @@ a{
     }
 
 .categories-section{
-    padding-top: 114px;
-    padding-bottom: 74px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     }
 
 .footer-section{
