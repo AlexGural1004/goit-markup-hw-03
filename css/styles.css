@@ -14,7 +14,7 @@
     }
 
 .container{
-    width: 1230px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     }
@@ -256,6 +256,7 @@ h4{
 .names{
     margin-top: 30px;
     margin-bottom: 10px;
+    text-align: center;
     }
 
 .our-team-title{
@@ -434,6 +435,7 @@ button{
     color: var(--primary-text-color);
     margin-top: 10px;
     margin-bottom: 0px;
+    text-align: center;
     }
 
 footer{
